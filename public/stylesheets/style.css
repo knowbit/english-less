@@ -1,0 +1,173 @@
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#name-lesson {
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  align-content: center;
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: separate;
+  border: 0px;
+  width: 100%;
+  max-width: 790px;
+  border-spacing: 0px;
+  margin: auto;
+}
+
+td.letter {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 2px;
+}
+
+.circle {
+  text-align: center;
+  width: 55px;
+  height: 55px;
+  margin: auto;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+#NOUNS, .NOUNS {
+  background: rgb(204, 255, 153);
+}
+
+#VERBS, .VERBS {
+  background-color: rgb(204, 204, 255);
+}
+
+#ADJECTIVES, .ADJECTIVES {
+  background-color: rgb(255, 204, 255);
+}
+
+#PHRASAL_VERBS, .PHRASAL_VERBS {
+  background: rgb(255, 255, 153);
+}
+
+#ERASE, .ERASE {
+  color: #747a75;
+  background: rgb(204, 204, 204);
+}
+
+.selected {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 10PX;
+}
+
+.check {
+  display: block;
+  background-color: rgb(245, 124, 0);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  padding-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.again {
+  display: none;
+  cursor: pointer;
+  background-color: rgb(26, 111, 176);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.try_again {
+  display: none;
+  cursor: pointer;
+  background-color: rgb(26, 111, 176);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 300px;
+  max-width: 300px;
+  min-height: 90px;
+  max-height: 90px;
+  border-radius: 15px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.correct {
+  display: none;
+  background-color: rgb(56, 142, 60);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 320px;
+  max-width: 320px;
+  min-height: 90px;
+  max-height: 90px;
+  border-radius: 15px;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NEXT {
+  display: none;
+  cursor: pointer;
+  background-color: rgb(245, 124, 0);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 70px;
+  max-height: 70px;
+  border-radius: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.circle, .check, .again, .try_again, .correct, .NEXT{
+  -webkit-box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+  -moz-box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+  box-shadow: 0px -5px 5px -3px rgba(34, 60, 80, 0.6) inset;
+}
+
+.button_hover:active {
+  box-shadow: 0px 5px 5px -3px rgba(9, 10, 11, 0.6) inset;
+  -webkit-box-shadow: 0px 5px 5px -3px rgba(9, 10, 11, 0.6) inset;
+  -moz-box-shadow: 0px 5px 5px -3px rgba(9, 10, 11, 0.6) inset;
+}

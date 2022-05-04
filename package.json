@@ -1,0 +1,22 @@
+{
+  "name": "english-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "http-errors": "^2.0.0",
+    "mongodb": "^4.5.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.3.1",
+    "terser": "^5.13.1",
+    "uglify-js": "^3.15.4"
+  }
+}

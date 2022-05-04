@@ -1,0 +1,93 @@
+body {
+  font-family: verdana;
+}
+
+table {
+  align-content: center;
+  min-width: 1180px;
+  max-width: 80%;
+  margin: auto;
+  table-layout: fixed; /* Ячейки фиксированной ширины */
+  text-align: center;
+  border-collapse: separate; /* Способ отображения границы */
+  width: 100%; /* Ширина таблицы */
+  border-spacing: 0px; /* Расстояние между ячейками */
+}
+
+input.letter{
+  text-align: center;
+  border: 1px double #333; /* Рамка вокруг таблицы */
+  padding: 10px;
+  width: 20px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.color_select {
+  min-width: 900px;
+  max-width: 70%;
+  margin-left: 15%;
+}
+
+.div_color_select {
+  float: left;
+  align-content: center;
+  min-width: 20%;
+  margin: auto;
+}
+
+.circle {
+  text-align: center;
+  cursor: pointer;
+  width: 75px;
+  height: 75px;
+  margin: auto;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+}
+
+#NOUNS, .NOUNS {
+  background: rgb(204, 255, 153);
+}
+
+#VERBS, .VERBS {
+  background-color: rgb(204, 204, 255);
+}
+
+#ADJECTIVES, .ADJECTIVES {
+  background-color: rgb(255, 204, 255);
+}
+
+#PHRASAL_VERBS, .PHRASAL_VERBS {
+  background-color: rgb(255, 255, 153);
+}
+
+#ERASE, .ERASE {
+  background-color: rgb(204, 204, 204);
+}
+
+#name-lesson {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+.selected {
+  text-align: center;
+  padding-top: 10PX;
+  width: 160px;
+  height: 60px;
+  margin: auto;
+}
+
+.button_id {
+  cursor: pointer;
+  max-width: auto;
+  border-bottom: 2px solid red;
+}
