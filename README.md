@@ -9,14 +9,13 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
 
 // Установка nodejs и пакетный менеджер npm .
 
-sudo apt install nodejs
-sudo apt install npm
+sudo apt install nodejs npm
 
 // NEXT >
 
 cd english-less
 
-npm install 
+npm install
 
 npm start
 
